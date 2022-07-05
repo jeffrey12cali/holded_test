@@ -63,4 +63,3 @@ def test_view(request):
         else:                               # OTHER ERRORS
             response['message'] = "An error was produced"
     return response
-    #return HttpResponse(result[1]['products'])
